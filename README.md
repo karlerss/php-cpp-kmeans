@@ -17,8 +17,8 @@ RUN git clone https://github.com/karlerss/php-cpp-kmeans.git && \
 
 ```
 $clusters = cpp_kmeans(15, [
-    123 => [],
-    223 => [],
+    123 => [345,456],
+    223 => [867,867],
     ...
 ])
 ```
